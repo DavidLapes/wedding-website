@@ -21,6 +21,6 @@ workflows:
           post-steps:
             - run: npm run build
             - aws-s3/copy:
-                from: dist/
+                from: build/
                 to: s3://terkaberedavida.cz
                 arguments: --recursive
