@@ -24,4 +24,4 @@ workflows:
                 from: build/
                 to: s3://terkaberedavida.cz
                 arguments: --recursive
-            - run: aws cloudfront create-invalidation --distribution-id E73O8TVBW4WB0 --paths "/*" > /dev/null 2>&1
+            - run: aws cloudfront create-invalidation --distribution-id E73O8TVBW4WB0 --paths "/*"
