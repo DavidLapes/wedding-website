@@ -37,16 +37,16 @@
 			<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link active page-scroll" href="#top">Úvod</a>
+						<a data-localize="navigation.home" class="nav-link active page-scroll" href="#top">Introduction</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link page-scroll" href="#events">Harmonogram</a>
+						<a data-localize="navigation.events" class="nav-link page-scroll" href="#events">Events</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link page-scroll" href="#gallery">Galerie</a>
+						<a data-localize="navigation.gallery" class="nav-link page-scroll" href="#gallery">Gallery</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link page-scroll" href="#rsvp">Účast</a>
+						<a data-localize="navigation.rsvp" class="nav-link page-scroll" href="#rsvp">Attendance</a>
 					</li>
 					<li class="nav-item d-flex ml-lg-4">
 						<a class="nav-link nav-link_social" href="https://www.facebook.com/terkaborkovcova31">
@@ -55,9 +55,6 @@
 						<a class="nav-link nav-link_social" href="https://www.instagram.com/terkaborkovcova31">
 							<i class="fa fa-2x fa-instagram"></i>
 						</a>
-					</li>
-					<li class="nav-item ml-lg-4 d-lg-none">
-						<span class="nav-link">&copy; Joseph and Sophia 2018.</span>
 					</li>
 				</ul>
 			</div>
@@ -89,8 +86,8 @@
 			<div class="love-story__flowers m-auto">
 				<img src="img/story-flowers.png" alt="flowers">
 			</div>
-			<h1 class="title">Love story</h1>
-			<p class="m-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<h1 data-localize="love-story.title" class="title">Love story</h1>
+			<p data-localize="love-story.text" class="m-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
 	</section>
 	<!-- Section Date -->
@@ -103,27 +100,28 @@
 				<div class="d-inline-block">
 					<h2 class="title--special">16. 09. 2022</h2>
 					<h3 class="date-section__place">
-						Stodola Suška<br>
-						Kravsko, Česká republika
+						<span data-localize="place.barn">Stodola Suška</span>
+						<br/>
+						<span data-localize="place.address">Kravsko, Czech Republic</span>
 					</h3>
 				</div>
 			</div>
 			<div id="timer" class="timer d-flex justify-content-center">
 				<div class="timer-item">
 					<span class="days timer__digit"></span>
-					<div class="timer__text">dnů</div>
+					<div data-localize="countdown.days" class="timer__text">days</div>
 				</div>
 				<div class="timer-item">
 					<span class="hours timer__digit"></span>
-					<div class="timer__text">hodin</div>
+					<div data-localize="countdown.hours" class="timer__text">hours</div>
 				</div>
 				<div class="timer-item">
 					<span class="minutes timer__digit"></span>
-					<div class="timer__text">minut</div>
+					<div data-localize="countdown.minutes" class="timer__text">minutes</div>
 				</div>
 				<div class="timer-item">
 					<span class="seconds timer__digit"></span>
-					<div class="timer__text">seconds</div>
+					<div data-localize="countdown.seconds" class="timer__text">seconds</div>
 				</div>
 			</div>
 		</div>
@@ -433,8 +431,10 @@
 			</div>
 		</div>
 	</footer>
+
 	<script src="js/vendor/jquery.min.js"></script>
 	<script src="js/vendor/jquery.easing.1.3.js"></script>
+	<script src="js/vendor/jquery.localize.min.js"></script>
 	<script src="js/vendor/popper.min.js"></script>
 	<script src="js/vendor/bootstrap.min.js"></script>
 	<script src="js/vendor/slick.min.js"></script>
@@ -443,5 +443,9 @@
 	<script src="js/vendor/masonry.pkgd.min.js"></script>
 	<script src="js/vendor/lightbox.min.js"></script>
 	<script src="js/main.js"></script>
+
+	<script>
+		$("[data-localize]").localize("application")
+	</script>
 </body>
 </html>
