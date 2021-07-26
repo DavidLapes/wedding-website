@@ -91,5 +91,13 @@
     "title": "Svatební dary",
     "paragraph": "Vezměte toto oznámení jako malou radu, že svatba není o trápení, co dát ke svatebnímu daru. Pokud něčím přispějete, budeme za to rádi, mnohem důležitější však pro nás bude, že strávíte tento den s námi.",
     "paragraph-issues": "Případné potíže se svatebními dary vyřeší také Palacký nebo Masaryk."
+  },
+  "rsvp": {
+
+  },
+  "footer": {
+    "save-our-date": "Zapiš si naše datum",
+    "names": "David a Terka",
+    "location": "Kravsko, Česká republika"
   }
 }
