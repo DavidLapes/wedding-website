@@ -60,11 +60,11 @@
     "column-arrival": {
       "title": "JAK SE TAM DOSTANEŠ",
       "paragraph": "Jedná se o místo, kde se dostaneš pouze autem, autobusy zde nejezdí. Adresu místa najdeš o něco výše, kde máme svatební harmonogram, když klikneš na UKÁZAT NA MAPĚ."
-    },
-    "gallery": {
-      "title": "Galerie",
-      "paragraph": "Níže si můžete prohlédnout pár střípků z našich krásných zásnub na dovolené v Řecku.",
-      "from-count": "z"
     }
+  },
+  "gallery": {
+    "title": "Galerie",
+    "paragraph": "Níže si můžete prohlédnout pár střípků z našich krásných zásnub na dovolené v Řecku.",
+    "from-count": "z"
   }
 }
