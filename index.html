@@ -342,40 +342,40 @@
 					<img src="img/rsvp-flower.png" class="parallax" alt="flower">
 				</div>
 				<div class="col-sm-12 col-md-8 align-self-center">
-					<h2 class="title">Účast</h2>
-					<h6 class="text-uppercase font-weight-bold mb-1">Zúčastníš se?</h6>
-					<h6>Prosím vyplň za každou osobu, která je pozvána, zvlášť.<br/>V případě problémů s vyplněním nám zavolejte.</h6>
+					<h2 data-localize="rsvp.title" class="title">Attendance</h2>
+					<h6 data-localize="rsvp.paragraph" class="text-uppercase font-weight-bold mb-1">Will you attend?</h6>
+					<h6 data-localize="rsvp.note">Please fill every person, who is invited, separately. In case of troubles, please reach out to us by phone or email.</h6>
 					<form id="rsvp-form" action="form.php" method="post">
 						<div class="row">
 							<div class="col-md-8 mb-3 m-md-0">
 								<div class="form-group">
-									<label class="control-label" for="inputFullName">Tvé jméno</label>
+									<label data-localize="rsvp.form.name" class="control-label" for="inputFullName">Your name</label>
 									<input type="text" class="form-control" id="inputFullName" required>
 								</div>
 								<div class="form-group mb-5">
-									<label class="control-label">Budeš chtít ubytování? (hosté si hradí sami)</label>
+									<label data-localize="rsvp.form.accommodation.title" class="control-label">Will you want an accommodation? (guests pay for accommodation)</label>
 								</div>
 								<div class="form-group mt-lg-5">
 									<select class="form-control" id="inputSleepover">
-										<option value="true">Ano</option>
-										<option value="false">Ne</option>
+										<option data-localize="rsvp.form.accommodation.yes" value="true">Yes</option>
+										<option data-localize="rsvp.form.accommodation.no" value="false">No</option>
 									</select>
 								</div>
 								<div class="form-group">
-									<label class="control-label" for="inputAddress">Tvoje adresa (kam ti pošleme pozvánku?)</label>
+									<label data-localize="rsvp.form.address" class="control-label" for="inputAddress">Your address (where should we send the invitation?)</label>
 									<input type="text" class="form-control" id="inputAddress" required>
 								</div>
 								<div class="form-group">
-									<label class="control-label" for="inputEmail">Tvůj e-mail (volitelné)</label>
+									<label data-localize="rsvp.form.email" class="control-label" for="inputEmail">Your email (optional)</label>
 									<input type="text" class="form-control" id="inputEmail">
 								</div>
 								<div class="form-group">
-									<label class="control-label" for="inputPhoneNumber">Tvůj telefon</label>
+									<label data-localize="rsvp.form.phone" class="control-label" for="inputPhoneNumber">Your phone</label>
 									<input type="text" class="form-control" id="inputPhoneNumber" required>
 								</div>
 							</div>
 							<div class="col-md-4 align-self-end">
-								<button type="submit" class="btn btn-outline-dark rounded-0 px-3 py-1 font-weight-bold">Odeslat</button>
+								<button data-localize="rsvp.form.button" type="submit" class="btn btn-outline-dark rounded-0 px-3 py-1 font-weight-bold">Send</button>
 							</div>
 						</div>
 						<div class="row">
