@@ -9,14 +9,57 @@
     "title": "O nás",
     "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
-  "place": {
-    "barn": "Stodola Suška",
-    "address": "Kravsko, Česká republika"
-  },
+  "place": "Stodola Suška<br/>Kravsko, Česká republika",
   "countdown": {
     "days": "Dnů",
     "hours": "Hodin",
     "minutes": "Minut",
     "seconds": "Vteřin"
+  },
+  "events": {
+    "title": "Svatební harmonogram",
+    "paragraph": "Níže najdeš nejůležitější časy, kdy která událost bude začínat, a kde se bude konat. Děláme maximum proto, aby se nikdo neztratil a všichni si celou svatbu užili.",
+    "tab-ceremony": {
+      "title": "Obřad",
+      "when-and-where": {
+        "title": "Kdy a kde",
+        "location": "Stodola Suška, 671 51 Kravsko, Česká republika",
+        "time": "To be announced",
+        "code": "Prosíme, dresscode",
+        "show-on-map": "Ukázat na mapě"
+      }
+    },
+    "tab-reception": {
+      "title": "Hostina",
+      "when-and-where": {
+        "title": "Kdy a kde",
+        "location": "Stodola Suška, 671 51 Kravsko, Česká republika",
+        "time": "To be announced",
+        "code": "Prosíme, dresscode",
+        "show-on-map": "Ukázat na mapě"
+      }
+    },
+    "tab-accommodation": {
+      "title": "Ubytování",
+      "when-and-where": {
+        "title": "Kdy a kde",
+        "location": "Kocanda, Kravsko 45, 671 51 Kravsko, Česká republika",
+        "time": "To be announced",
+        "code": "Prosíme, dresscode",
+        "show-on-map": "Ukázat na mapě"
+      }
+    },
+    "column-accommodation": {
+      "title": "KDE TĚ UBYTUJEME",
+      "paragraph": "Stodola Suška ubytovává v hotelu, který spadá pod Kocandu v Kravsku. Nachází se 3km od stodoly, ale odjezd budeme zajišťovat po celou dobu akce, takže se není čeho bát. Zároveň pokoje mají vlastní koupelny."
+    },
+    "column-dresscode": {
+      "title": "DRESSCODE",
+      "paragraph": "Naše svatba proběhne v rustikálním stylu v tzv. <b>Semiformal dresscode</b>. Pro muže to znamená společenské oblekové kalhoty, košili, oblek či vestu, společenské boty a volitelně motýlek či kravatu. Džíny, rifle a botasky do tohoto dresscode nezapadají. Pro ženy to znamená nějaké šaty nebo třeba sukni a halenku. Když by u tebe byl zájem se sladit úplně, rustikální styl a stodola samotná hodně podporuje podzimní barvy a květinové vzory. Tenhle tip se ti hodí hlavně spíše proto, budeš-li chtít na fotkách vyniknout a sladit s celou svatební atmosférou :). Zároveň bychom tě chtěli moc poprosit, aby tvé bílé šaty zůstaly doma a mohli bychom tuhle barvu šatů nechat pouze nevěstě."
+    },
+    "column-arrival": {
+      "title": "JAK SE TAM DOSTANEŠ",
+      "paragraph": "Jedná se o místo, kde se dostaneš pouze autem, autobusy zde nejezdí. Adresu místa najdeš o něco výše, kde máme svatební harmonogram, když klikneš na UKÁZAT NA MAPĚ."
+    }
   }
 }
