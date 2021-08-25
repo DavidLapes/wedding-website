@@ -99,7 +99,7 @@
     "form": {
       "name": "Tvé jméno",
       "accommodation": {
-        "title": "Budeš chtít ubytování? (hosté si hradí sami)",
+        "title": "Budeš chtít ubytování?",
         "yes": "Ano",
         "no": "Ne"
       },

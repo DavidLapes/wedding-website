@@ -22,7 +22,6 @@
 		<![endif]-->
 	</head>
 <body data-spy="scroll" data-target="#navbarSupportedContent" data-offset="100">
-	<div id="root"></div>
 	<div id="loader" class="loader">
 		<div id="my-svg"></div>
 		<div class="loader-img text-center">
@@ -346,45 +345,7 @@
 					<h1 data-localize="rsvp.title" class="title">Attendance</h1>
 					<h6 data-localize="rsvp.paragraph" class="text-uppercase font-weight-bold mb-1">Will you attend?</h6>
 					<h6 data-localize="rsvp.note">Please fill every person, who is invited, separately. In case of troubles, please reach out to us by phone or email.</h6>
-					<form id="rsvp-form" action="form.php" method="post">
-						<div class="row">
-							<div class="col-md-8 mb-3 m-md-0">
-								<div class="form-group">
-									<label data-localize="rsvp.form.name" class="control-label" for="inputFullName">Your name</label>
-									<input type="text" class="form-control" id="inputFullName" required>
-								</div>
-								<div class="form-group mb-5">
-									<label data-localize="rsvp.form.accommodation.title" class="control-label">Will you want an accommodation? (guests pay for accommodation)</label>
-								</div>
-								<div class="form-group mt-lg-5">
-									<select class="form-control" id="inputSleepover">
-										<option data-localize="rsvp.form.accommodation.yes" value="true">Yes</option>
-										<option data-localize="rsvp.form.accommodation.no" value="false">No</option>
-									</select>
-								</div>
-								<div class="form-group">
-									<label data-localize="rsvp.form.address" class="control-label" for="inputAddress">Your address (where should we send the invitation?)</label>
-									<input type="text" class="form-control" id="inputAddress" required>
-								</div>
-								<div class="form-group">
-									<label data-localize="rsvp.form.email" class="control-label" for="inputEmail">Your email (optional)</label>
-									<input type="text" class="form-control" id="inputEmail">
-								</div>
-								<div class="form-group">
-									<label data-localize="rsvp.form.phone" class="control-label" for="inputPhoneNumber">Your phone</label>
-									<input type="text" class="form-control" id="inputPhoneNumber" required>
-								</div>
-							</div>
-							<div class="col-md-4 align-self-end">
-								<button data-localize="rsvp.form.button" type="submit" class="btn btn-outline-dark rounded-0 px-3 py-1 font-weight-bold">Send</button>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col">
-								<div class="success-msg"></div>
-							</div>
-						</div>
-					</form>
+					<div id="root"></div>
 				</div>
 			</div>
 		</div>
