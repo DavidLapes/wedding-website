@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import {connect} from "react-redux";
 import Select from "react-select";
+import { withTranslation } from 'react-i18next';
 import {fetchGuests} from "./services/actions/guests/fetchGuests";
 import {submitRSVP} from "./services/actions/guests/submitRSVP";
 
@@ -95,6 +96,9 @@ class App extends Component {
     };
 
     render() {
+
+        const { t } = this.props;
+
         return (
             <div className="container">
                 <div className="row">
@@ -188,4 +192,4 @@ const mapStateToProps = state => {
     }
 }
 
-export default connect(mapStateToProps)(App);
+export default connect(mapStateToProps)(withTranslation()(App));

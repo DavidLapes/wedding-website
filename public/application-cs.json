@@ -92,23 +92,6 @@
     "paragraph": "Vezměte toto oznámení jako malou radu, že svatba není o trápení, co dát ke svatebnímu daru. Pokud něčím přispějete, budeme za to rádi, mnohem důležitější však pro nás bude, že strávíte tento den s námi.",
     "paragraph-issues": "Případné potíže se svatebními dary vyřeší také Palacký nebo Masaryk."
   },
-  "rsvp": {
-    "title": "Účast",
-    "paragraph": "Zúčastníš se?",
-    "note": "Prosím vyplň za každou osobu, která je pozvána, zvlášť.<br/>V případě problémů s vyplněním nám zavolejte.",
-    "form": {
-      "name": "Tvé jméno",
-      "accommodation": {
-        "title": "Budeš chtít ubytování?",
-        "yes": "Ano",
-        "no": "Ne"
-      },
-      "address": "Tvoje adresa (kam ti pošleme pozvánku?)",
-      "email": "Tvůj e-mail (volitelné)",
-      "phone": "Tvůj telefon",
-      "button": "Odeslat"
-    }
-  },
   "footer": {
     "save-our-date": "Zapiš si naše datum",
     "names": "David a Terka",
