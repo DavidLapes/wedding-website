@@ -14,7 +14,6 @@ class App extends Component {
         orientation_number: null,
         descriptive_number: null,
         postal_code:        null,
-        //TODO: Default YES
         accommodation:      null,
         email:              null,
         phone:              null,
@@ -23,8 +22,7 @@ class App extends Component {
     }
 
     componentDidMount() {
-        //this.props.dispatch(fetchGuests());
-        //TODO: Uncomment
+        this.props.dispatch(fetchGuests());
         if(this.props.guests) {
             this.setState({
                 guests: this.formatOptions(this.props.guests)
