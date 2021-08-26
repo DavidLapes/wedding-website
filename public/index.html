@@ -37,7 +37,7 @@
 			</a>
 			<button type="button" class="d-lg-none navbar-toggle collapsed" data-toggle="collapse"
 					data-target="#navbarSupportedContent" aria-expanded="false">
-				<span class="sr-only">Toggle navigation</span>
+				<span data-localize="navigation.toggle" class="sr-only">Přepnout navigaci</span>
 				<span class="icon-bar top-bar"></span>
 				<span class="icon-bar middle-bar"></span>
 				<span class="icon-bar bottom-bar"></span>
@@ -46,19 +46,19 @@
 				<ul class="navbar-nav">
 					<li class="nav-item">
 						<a data-localize="navigation.home" class="nav-link active page-scroll"
-						   href="#top">Introduction</a>
+						   href="#top">Úvod</a>
 					</li>
 					<li class="nav-item">
 						<a data-localize="navigation.events" class="nav-link page-scroll"
-						   href="#events">Events</a>
+						   href="#events">Harmonogram</a>
 					</li>
 					<li class="nav-item">
 						<a data-localize="navigation.gallery" class="nav-link page-scroll"
-						   href="#gallery">Gallery</a>
+						   href="#gallery">Galerie</a>
 					</li>
 					<li class="nav-item">
 						<a data-localize="navigation.rsvp" class="nav-link page-scroll"
-						   href="#rsvp">Attendance</a>
+						   href="#rsvp">Účast</a>
 					</li>
 					<li class="nav-item d-flex ml-lg-4">
 						<a class="nav-link nav-link_social"
@@ -93,7 +93,7 @@
 			<div class="love-story__flowers m-auto">
 				<img src="img/story-flowers.png" alt="flowers"/>
 			</div>
-			<h1 data-localize="love-story.title" class="title">Love story</h1>
+			<h1 data-localize="love-story.title" class="title">O nás</h1>
 			<p data-localize="love-story.text" class="m-auto">-------------------</p>
 		</div>
 	</section>
@@ -108,75 +108,83 @@
 					<h3 data-localize="place" class="date-section__place">
 						Stodola Suška
 						<br/>
-						Kravsko, Czech Republic
+						Kravsko, Česká republika
 					</h3>
 				</div>
 			</div>
 			<div id="timer" class="timer d-flex justify-content-center">
 				<div class="timer-item">
 					<span class="days timer__digit"></span>
-					<div data-localize="countdown.days" class="timer__text">days</div>
+					<div data-localize="countdown.days" class="timer__text">Dnů</div>
 				</div>
 				<div class="timer-item">
 					<span class="hours timer__digit"></span>
-					<div data-localize="countdown.hours" class="timer__text">hours</div>
+					<div data-localize="countdown.hours" class="timer__text">Hodin</div>
 				</div>
 				<div class="timer-item">
 					<span class="minutes timer__digit"></span>
-					<div data-localize="countdown.minutes" class="timer__text">minutes</div>
+					<div data-localize="countdown.minutes" class="timer__text">Minut</div>
 				</div>
 				<div class="timer-item">
 					<span class="seconds timer__digit"></span>
-					<div data-localize="countdown.seconds" class="timer__text">seconds</div>
+					<div data-localize="countdown.seconds" class="timer__text">Vteřin</div>
 				</div>
 			</div>
 		</div>
 	</section>
 	<section id="events" class="events section text-center">
 		<div class="container">
-			<h1 data-localize="events.title" class="title">Events</h1>
-			<p data-localize="events.paragraph" class="subtitle mx-auto">-------------</p>
+			<h1 data-localize="events.title" class="title">Svatební harmonogram</h1>
+			<p data-localize="events.paragraph" class="subtitle mx-auto">Níže najdeš nejůležitější časy, kdy která událost bude začínat, a kde se bude konat. Děláme maximum proto, aby se nikdo neztratil a všichni si celou svatbu užili.</p>
 			<div id="accordion">
 				<div class="accordion__header d-flex justify-content-center">
 					<button data-localize="events.tab-ceremony.title" class="btn btn-link"
 							data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
 							aria-controls="collapseOne">
-						Ceremony
+						Obřad
 					</button>
 					<button data-localize="events.tab-reception.title" class="btn btn-link collapsed"
 							data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
 							aria-controls="collapseTwo">
-						Reception
+						Hostina
 					</button>
 					<button data-localize="events.tab-accommodation.title" class="btn btn-link collapsed"
 							data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
 							aria-controls="collapseThree">
-						Accommodation
+						Ubytování
 					</button>
 				</div>
 				<div class="accordion__body">
 					<div id="collapseOne" class="collapse show" data-parent="#accordion">
 						<div class="row">
 							<h2 data-localize="events.tab-ceremony.title"
-								class="accordion__item-heading">Ceremony</h2>
+								class="accordion__item-heading">
+								Obřad
+							</h2>
 							<div class="col-md-6">
 								<img class="accordion__item-img" src="img/ceremony.png" alt="ceremony"/>
 							</div>
 							<div class="col-md-6 text-left">
 								<h3 data-localize="events.tab-ceremony.when-and-where.title"
-									class="accordion__item-subheading">When and where</h3>
+									class="accordion__item-subheading">Kdy a kde</h3>
 								<p data-localize="events.tab-ceremony.when-and-where.location"
-								   class="d-flex align-items-center"><i
-										class="fa fa-2x fa-map-marker align-middle pr-1"></i>Stodola Suška, 671 51
-									Kravsko, Czech Republic</p>
+								   class="d-flex align-items-center">
+									<i class="fa fa-2x fa-map-marker align-middle pr-1"></i>
+									Stodola Suška, 671 51
+									Kravsko, Česká republika
+								</p>
 								<p data-localize="events.tab-ceremony.when-and-where.time"
-								   class="d-flex align-items-center"><i
-										class="fa fa-2x fa-clock-o align-middle pr-1"></i>09:00 - 10:30, Sep 15,
-									2018 </p>
+								   class="d-flex align-items-center">
+									<i class="fa fa-2x fa-clock-o align-middle pr-1"></i>
+									Teprve oznámíme
+								</p>
 								<p data-localize="events.tab-ceremony.when-and-where.code"
-								   class="font-weight-bold">Keep it classy</p>
+								   class="font-weight-bold">
+									Prosíme, dresscode
+								</p>
 								<div data-localize="events.tab-ceremony.when-and-where.show-on-map"
-									 class="btn btn-outline-dark rounded-0 px-2 py-1">Show on map
+									 class="btn btn-outline-dark rounded-0 px-2 py-1">
+									Ukázat na mapě
 								</div>
 							</div>
 						</div>
@@ -184,25 +192,32 @@
 					<div id="collapseTwo" class="collapse" data-parent="#accordion">
 						<div class="row">
 							<h2 data-localize="events.tab-reception.title"
-								class="accordion__item-heading">Reception</h2>
+								class="accordion__item-heading">
+								Hostina
+							</h2>
 							<div class="col-md-6">
 								<img class="accordion__item-img" src="img/dinner.jpg" alt="ceremony"/>
 							</div>
 							<div class="col-md-6 text-left">
 								<h3 data-localize="events.tab-reception.when-and-where.title"
-									class="accordion__item-subheading">When and where</h3>
+									class="accordion__item-subheading">Kdy a kde</h3>
 								<p data-localize="events.tab-reception.when-and-where.location"
-								   class="d-flex align-items-center"><i
-										class="fa fa-2x fa-map-marker align-middle pr-1"></i>Stodola Suška, 671 51
-									Kravsko, Czech Republic</p>
+								   class="d-flex align-items-center">
+									<i class="fa fa-2x fa-map-marker align-middle pr-1"></i>
+									Stodola Suška, 671 51 Kravsko, Česká republika
+								</p>
 								<p data-localize="events.tab-reception.when-and-where.time"
-								   class="d-flex align-items-center"><i
-										class="fa fa-2x fa-clock-o align-middle pr-1"></i>17:00 - 21:00, Sep 15,
-									2018</p>
+								   class="d-flex align-items-center">
+									<i class="fa fa-2x fa-clock-o align-middle pr-1"></i>
+									Teprve oznámíme
+								</p>
 								<p data-localize="events.tab-reception.when-and-where.code"
-								   class="font-weight-bold">Keep it classy</p>
+								   class="font-weight-bold">
+									Prosíme, dresscode
+								</p>
 								<div data-localize="events.tab-reception.when-and-where.show-on-map"
-									 class="btn btn-outline-dark rounded-0 px-2 py-1">Show on map
+									 class="btn btn-outline-dark rounded-0 px-2 py-1">
+									Ukázat na mapě
 								</div>
 							</div>
 						</div>
@@ -210,25 +225,32 @@
 					<div id="collapseThree" class="collapse" data-parent="#accordion">
 						<div class="row">
 							<h2 data-localize="events.tab-accommodation.title"
-								class="accordion__item-heading">Accommodation</h2>
+								class="accordion__item-heading">
+								Ubytování
+							</h2>
 							<div class="col-md-6">
 								<img class="accordion__item-img" src="img/party.jpg" alt="ceremony"/>
 							</div>
 							<div class="col-md-6 text-left">
 								<h3 data-localize="events.tab-accommodation.when-and-where.title"
-									class="accordion__item-subheading">When and where</h3>
+									class="accordion__item-subheading">Kdy a kde</h3>
 								<p data-localize="events.tab-accommodation.when-and-where.location"
-								   class="d-flex align-items-center"><i
-										class="fa fa-2x fa-map-marker align-middle pr-1"></i>Kocanda, Kravsko 45,
-									671 51 Kravsko, Czech Republic</p>
+								   class="d-flex align-items-center">
+									<i class="fa fa-2x fa-map-marker align-middle pr-1"></i>
+									Kocanda, Kravsko 45, 671 51 Kravsko, Česká republika
+								</p>
 								<p data-localize="events.tab-accommodation.when-and-where.time"
-								   class="d-flex align-items-center"><i
-										class="fa fa-2x fa-clock-o align-middle pr-1"></i>21:00 - 00:00, Sep 15,
-									2018</p>
+								   class="d-flex align-items-center">
+									<i class="fa fa-2x fa-clock-o align-middle pr-1"></i>
+									Teprve oznámíme
+								</p>
 								<p data-localize="events.tab-accommodation.when-and-where.code"
-								   class="font-weight-bold">Keep it classy</p>
+								   class="font-weight-bold">
+									Prosíme, dresscode
+								</p>
 								<div data-localize="events.tab-accommodation.when-and-where.show-on-map"
-									 class="btn btn-outline-dark rounded-0 px-2 py-1">Show on map
+									 class="btn btn-outline-dark rounded-0 px-2 py-1">
+									Ukázat na mapě
 								</div>
 							</div>
 						</div>
@@ -239,20 +261,19 @@
 				<div class="row text-left">
 					<div class="col-md-4 event__info-item">
 						<h6 data-localize="events.column-arrival.title"
-							class="event__info-header font-weight-bold">How you get there</h6>
-						<p data-localize="events.column-arrival.paragraph">-----------------</p>
+							class="event__info-header font-weight-bold">Jak se tam dostaneš</h6>
+						<p data-localize="events.column-arrival.paragraph">Jedná se o místo, kde se dostaneš pouze autem, autobusy zde nejezdí. Adresu místa najdeš o něco výše, kde máme svatební harmonogram, když klikneš na UKÁZAT NA MAPĚ.</p>
 					</div>
 					<div class="col-md-4 event__info-item">
 						<h6 data-localize="events.column-accommodation.title"
-							class="event__info-header font-weight-bold">Accommodation place</h6>
-						<p data-localize="events.column-accommodation.paragraph">-----------------</p>
+							class="event__info-header font-weight-bold">Kde tě ubytujeme</h6>
+						<p data-localize="events.column-accommodation.paragraph">Stodola Suška ubytovává v hotelu, který spadá pod Kocandu v Kravsku. Nachází se 3km od stodoly, ale odjezd budeme zajišťovat po celou dobu akce, takže se není čeho bát. Zároveň pokoje mají vlastní koupelny.</p>
 					</div>
 					<div class="col-md-4 event__info-item">
 						<h6 data-localize="events.column-dresscode.title"
 							class="event__info-header font-weight-bold">Dresscode</h6>
 						<p data-localize="events.column-dresscode.paragraph">
-							----------------- <b>Semiformal dresscode</b>.
-							-----------------
+							Naše svatba proběhne v rustikálním stylu v tzv. <b>Semiformal dresscode</b>. Pro muže to znamená společenské oblekové kalhoty, košili, oblek či vestu, společenské boty a volitelně motýlek či kravatu. Džíny, rifle a botasky do tohoto dresscode nezapadají. Pro ženy to znamená nějaké šaty nebo třeba sukni a halenku. Když by u tebe byl zájem se sladit úplně, rustikální styl a stodola samotná hodně podporuje podzimní barvy a květinové vzory. Tenhle tip se ti hodí hlavně spíše proto, budeš-li chtít na fotkách vyniknout a sladit s celou svatební atmosférou :). Zároveň bychom tě chtěli moc poprosit, aby tvé bílé šaty zůstaly doma a mohli bychom tuhle barvu šatů nechat pouze nevěstě.
 						</p>
 					</div>
 				</div>
@@ -267,8 +288,8 @@
 			<img src="img/gallery-prlx-r.png" alt="flower"/>
 		</div>
 		<div class="container position-relative">
-			<h1 data-localize="gallery.title" class="title">Gallery</h1>
-			<p data-localize="gallery.paragraph" class="subtitle mx-auto">----------</p>
+			<h1 data-localize="gallery.title" class="title">Galerie</h1>
+			<p data-localize="gallery.paragraph" class="subtitle mx-auto">Níže si můžete prohlédnout pár střípků z našich krásných zásnub na dovolené v Řecku."</p>
 			<div class="gallery__slider">
 				<div class="slick-gallery slick mb-0">
 					<div class="slider__item">
@@ -306,7 +327,7 @@
 	</section>
 	<section class="wishes section text-center">
 		<div class="container">
-			<h1 data-localize="bridesmaids-groomsmen.title" class="title">Bridesmaids and Groomsmen</h1>
+			<h1 data-localize="bridesmaids-groomsmen.title" class="title">Svedkyne a svedci</h1>
 			<p data-localize="bridesmaids-groomsmen.paragraph"
 			   class="subtitle m-auto">-----------------------------------</p>
 			<div class="wishes__slider">
@@ -316,40 +337,32 @@
 							<img class="rounded-circle m-auto" src="img/person1.jpg" alt="slider"/>
 						</div>
 						<h4 data-localize="bridesmaids-groomsmen.denisa.title"
-							class="wishes__title font-weight-bold">Denise Borkovcová</h4>
-						<p data-localize="bridesmaids-groomsmen.denisa.paragraph" class="mx-auto">"With warm
-							congratulations to a very special pair. May you always find in each other the love,
-							laughter and happiness that only partners in life share!"</p>
+							class="wishes__title font-weight-bold">Denisa Borkovcová</h4>
+						<p data-localize="bridesmaids-groomsmen.denisa.paragraph" class="mx-auto">-----------------------------------</p>
 					</div>
 					<div class="slider__item">
 						<div class="wishes__person">
 							<img class="rounded-circle m-auto" src="img/person1.jpg" alt="slider"/>
 						</div>
 						<h4 data-localize="bridesmaids-groomsmen.janca.title"
-							class="wishes__title font-weight-bold">Jane Elčknerová</h4>
-						<p data-localize="bridesmaids-groomsmen.janca.paragraph" class="mx-auto">"With warm
-							congratulations to a very special pair. May you always find in each other the love,
-							laughter and happiness that only partners in life share!"</p>
+							class="wishes__title font-weight-bold">Janča Elčknerová</h4>
+						<p data-localize="bridesmaids-groomsmen.janca.paragraph" class="mx-auto">-----------------------------------</p>
 					</div>
 					<div class="slider__item">
 						<div class="wishes__person">
 							<img class="rounded-circle m-auto" src="img/person2.jpg" alt="slider"/>
 						</div>
 						<h4 data-localize="bridesmaids-groomsmen.kuba.title"
-							class="wishes__title font-weight-bold">Jacob Lapeš</h4>
-						<p data-localize="bridesmaids-groomsmen.kuba.paragraph" class="mx-auto">"True love
-							stories never end! Happy wedding day and may there be many more chapters in the
-							wonderful story of your love for one another."</p>
+							class="wishes__title font-weight-bold">Kuba Lapeš</h4>
+						<p data-localize="bridesmaids-groomsmen.kuba.paragraph" class="mx-auto">-----------------------------------</p>
 					</div>
 					<div class="slider__item">
 						<div class="wishes__person">
 							<img class="rounded-circle m-auto" src="img/person3.jpg" alt="slider"/>
 						</div>
 						<h4 data-localize="bridesmaids-groomsmen.tom.title"
-							class="wishes__title font-weight-bold">Tomas Tégl</h4>
-						<p data-localize="bridesmaids-groomsmen.tom.paragraph" class="mx-auto">"A wedding wish
-							for two special person: love is best when shared by two. You know that together you are
-							stronger, together you are one. Have a wonderful married life!"</p>
+							class="wishes__title font-weight-bold">Tom Tégl</h4>
+						<p data-localize="bridesmaids-groomsmen.tom.paragraph" class="mx-auto">-----------------------------------</p>
 					</div>
 				</div>
 			</div>
@@ -357,14 +370,10 @@
 	</section>
 	<section class="gifts section section--blue text-center">
 		<div class="container">
-			<h1 data-localize="wedding-gifts.title" class="title">Wedding gifts</h1>
-			<p data-localize="wedding-gifts.paragraph" class="subtitle m-auto">Please, take this as an advice
-				that wedding is not about misery from choosing the right gift. If you decide to surprise us, we will
-				be really grateful to you, but please keep in mind that the most valuable thing for us is having you
-				there with us to spend the most important day of our lives together.</p>
+			<h1 data-localize="wedding-gifts.title" class="title">Svatební dary</h1>
+			<p data-localize="wedding-gifts.paragraph" class="subtitle m-auto">Vezměte toto oznámení jako malou radu, že svatba není o trápení, co dát ke svatebnímu daru. Pokud něčím přispějete, budeme za to rádi, mnohem důležitější však pro nás bude, že strávíte tento den s námi.</p>
 			<br/>
-			<p data-localize="wedding-gifts.paragraph-issues" class="subtitle m-auto">Possible issues might be
-				resolved by Ulysses S. Grant or Benjamin Franklin.</p>
+			<p data-localize="wedding-gifts.paragraph-issues" class="subtitle m-auto">Případné potíže se svatebními dary vyřeší také Palacký nebo Masaryk.</p>
 			<div class="wishes__slider">
 				<div class="slick slick-gifts mb-0 pb-0">
 					<div class="slider__item">
@@ -401,8 +410,8 @@
 	<footer class="section">
 		<div class="container text-white position-relative">
 			<div class="footer__title">
-				<div data-localize="footer.save-our-date" class="text-center">Save our date</div>
-				<div data-localize="footer.names" class="text-center">David and Terka</div>
+				<div data-localize="footer.save-our-date" class="text-center">Zapiš si naše datum</div>
+				<div data-localize="footer.names" class="text-center">David a Terka</div>
 			</div>
 			<div class="row pb-4">
 				<div class="col-md-6 text-justify">
@@ -425,7 +434,7 @@
 							<div class="pt-1 pb-1">
 								<i class="fa fa-map-marker fa-3x"></i>
 							</div>
-							<div data-localize="footer.location" class="pb-1">Kravsko, Czech Republic</div>
+							<div data-localize="footer.location" class="pb-1">Kravsko, Česká republika</div>
 						</div>
 						<div class="col-md-4 text-center border-bottom px-0">
 							<div class="pt-1 pb-1">
