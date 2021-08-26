@@ -1,0 +1,101 @@
+{
+  "navigation": {
+    "home": "Introduction",
+    "events": "Events",
+    "gallery": "Gallery",
+    "rsvp": "Attendance",
+    "toggle": "Toggle navigation"
+  },
+  "love-story": {
+    "title": "Love story",
+    "text": "-----------------------------------"
+  },
+  "place": "Stodola Suška<br/>Kravsko, Česká republika",
+  "countdown": {
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds"
+  },
+  "events": {
+    "title": "Events",
+    "paragraph": "--------------------------",
+    "tab-ceremony": {
+      "title": "Ceremony",
+      "when-and-where": {
+        "title": "When and where",
+        "location": "Stodola Suška, 671 51 Kravsko, Czech Republic",
+        "time": "To be announced",
+        "code": "Keep it classy",
+        "show-on-map": "Show on map"
+      }
+    },
+    "tab-reception": {
+      "title": "Reception",
+      "when-and-where": {
+        "title": "When and where",
+        "location": "Stodola Suška, 671 51 Kravsko, Czech Republic",
+        "time": "To be announced",
+        "code": "Keep it classy",
+        "show-on-map": "Show on map"
+      }
+    },
+    "tab-accommodation": {
+      "title": "Accommodation",
+      "when-and-where": {
+        "title": "When and where",
+        "location": "Stodola Suška, 671 51 Kravsko, Czech Republic",
+        "time": "To be announced",
+        "code": "Keep it classy",
+        "show-on-map": "Show on map"
+      }
+    },
+    "column-accommodation": {
+      "title": "Accommodation place",
+      "paragraph": "-------------------------------"
+    },
+    "column-dresscode": {
+      "title": "Dresscode",
+      "paragraph": "-------------------------------"
+    },
+    "column-arrival": {
+      "title": "How you get there",
+      "paragraph": "-------------------------------"
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "paragraph": "---------------",
+    "from-count": "out of"
+  },
+  "bridesmaids-groomsmen": {
+    "title": "Bridesmaids and Groomsmen",
+    "paragraph": "-----------------------------------",
+    "denisa": {
+      "title": "Denisa Borkovcová",
+      "paragraph": "-----------------------------------"
+    },
+    "janca": {
+      "title": "Janča Elčknerová",
+      "paragraph": "-----------------------------------"
+    },
+    "kuba": {
+      "title": "Kuba Lapeš",
+      "paragraph": "-----------------------------------"
+    },
+    "tom": {
+      "title": "Tom Tégl",
+      "paragraph": "-----------------------------------"
+    }
+  },
+  "wedding-gifts": {
+    "title": "Wedding gifts",
+    "paragraph": "Please, take this as an advice that wedding is not about misery from choosing the right gift. If you decide to surprise us, we will be really grateful to you, but please keep in mind that the most valuable thing for us is having you there with us to spend the most important day of our lives together.",
+    "paragraph-issues": "Possible issues might be resolved by Ulysses S. Grant or Benjamin Franklin."
+  },
+  "footer": {
+    "save-our-date": "Save our date",
+    "names": "David and Terka",
+    "location": "Kravsko, Czech Republic"
+  }
+}
