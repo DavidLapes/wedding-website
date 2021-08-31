@@ -46,7 +46,7 @@
         "title": "When and where",
         "location": "Stodola Suška, 671 51 Kravsko, Czech Republic",
         "time": "To be announced",
-        "code": "Keep it classy",
+        "info": "Keep it classy",
         "show-on-map": "Show on map"
       }
     },
@@ -76,15 +76,15 @@
       "paragraph": "-----------------------------------"
     },
     "janca": {
-      "title": "Janča Elčknerová",
+      "title": "Jana Elčknerová",
       "paragraph": "-----------------------------------"
     },
     "kuba": {
-      "title": "Kuba Lapeš",
+      "title": "Jakub Lapeš",
       "paragraph": "-----------------------------------"
     },
     "tom": {
-      "title": "Tom Tégl",
+      "title": "Tomáš Tégl",
       "paragraph": "-----------------------------------"
     }
   },

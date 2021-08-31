@@ -3,7 +3,8 @@
     "home": "Úvod",
     "events": "Harmonogram",
     "gallery": "Galerie",
-    "rsvp": "Účast"
+    "rsvp": "Účast",
+    "toggle": "Přepnout navigaci"
   },
   "love-story": {
     "title": "O nás",
@@ -24,7 +25,7 @@
       "when-and-where": {
         "title": "Kdy a kde",
         "location": "Stodola Suška, 671 51 Kravsko, Česká republika",
-        "time": "To be announced",
+        "time": "2.9.2022 čas bude upřesněn",
         "code": "Prosíme, dresscode",
         "show-on-map": "Ukázat na mapě"
       }
@@ -34,7 +35,7 @@
       "when-and-where": {
         "title": "Kdy a kde",
         "location": "Stodola Suška, 671 51 Kravsko, Česká republika",
-        "time": "To be announced",
+        "time": "2.9.2022 čas bude upřesněn",
         "code": "Prosíme, dresscode",
         "show-on-map": "Ukázat na mapě"
       }
@@ -44,22 +45,22 @@
       "when-and-where": {
         "title": "Kdy a kde",
         "location": "Kocanda, Kravsko 45, 671 51 Kravsko, Česká republika",
-        "time": "To be announced",
-        "code": "Prosíme, dresscode",
+        "time": "2.9.2022 od 12 hod. - 3.9.2022 do 10 hod",
+        "info": "Ubytování se při zájmu hradí individuálně",
         "show-on-map": "Ukázat na mapě"
       }
     },
     "column-accommodation": {
-      "title": "KDE TĚ UBYTUJEME",
-      "paragraph": "Stodola Suška ubytovává v hotelu, který spadá pod Kocandu v Kravsku. Nachází se 3km od stodoly, ale odjezd budeme zajišťovat po celou dobu akce, takže se není čeho bát. Zároveň pokoje mají vlastní koupelny."
+      "title": "Kde tě ubytujeme",
+      "paragraph": "Stodola Suška ubytovává v hotelu, který spadá pod Kocandu v Kravsku. Nachází se 2km od stodoly. Dorazte ale prosím do areálu Kocandy, odvoz mezi areály bude zajištěn po celou dobu akce, takže mohou slavit i věční řidiči :) Ve svatební den se můžete ubytovat po 12hod, odjezd druhý den do 10hod. Dejte nám vědět, ubytování a rozdělení pokojů zařídíme. Přespání si hosté hradí sami, cena bude kolem 1000kč/os. (včas upřesníme)."
     },
     "column-dresscode": {
-      "title": "DRESSCODE",
-      "paragraph": "Naše svatba proběhne v rustikálním stylu v tzv. <b>Semiformal dresscode</b>. Pro muže to znamená společenské oblekové kalhoty, košili, oblek či vestu, společenské boty a volitelně motýlek či kravatu. Džíny, rifle a botasky do tohoto dresscode nezapadají. Pro ženy to znamená nějaké šaty nebo třeba sukni a halenku. Když by u tebe byl zájem se sladit úplně, rustikální styl a stodola samotná hodně podporuje podzimní barvy a květinové vzory. Tenhle tip se ti hodí hlavně spíše proto, budeš-li chtít na fotkách vyniknout a sladit s celou svatební atmosférou :). Zároveň bychom tě chtěli moc poprosit, aby tvé bílé šaty zůstaly doma a mohli bychom tuhle barvu šatů nechat pouze nevěstě."
+      "title": "Dresscode",
+      "paragraph": "Naše svatba proběhne v rustikálním stylu v tzv. <b>Semiformal dresscode</b>. Pro muže to znamená společenské oblekové kalhoty, košili, oblek či vestu, společenské boty a volitelně motýlek či kravatu. Džíny, rifle a botasky do tohoto dresscode nezapadají. Pro ženy to znamená šaty nebo třeba sukni a halenku. Když by u tebe byl zájem se sladit úplně, rustikální styl a stodola samotná podporuje podzimní barvy a květinové vzory. Tenhle tip se ti hodí hlavně spíše proto, budeš-li chtít na fotkách vyniknout a sladit s celou svatební atmosférou :). Zároveň bychom tě chtěli moc poprosit, aby tvé bílé šaty zůstaly doma a mohli bychom tuhle barvu šatů nechat pouze nevěstě."
     },
     "column-arrival": {
-      "title": "JAK SE TAM DOSTANEŠ",
-      "paragraph": "Jedná se o místo, kde se dostaneš pouze autem, autobusy zde nejezdí. Adresu místa najdeš o něco výše, kde máme svatební harmonogram, když klikneš na UKÁZAT NA MAPĚ."
+      "title": "Jak se tam dostaneš",
+      "paragraph": "Nejlépe se na místo dostaneš autem. Nejlepší spojení autobusu je pravděpodobně přes Znojmo. Nejbliší zastávka je Kravsko, u kovárny. Pokud nemáš možnost dorazit autem, dej nám vědět. Možná bychom ti mohli zařídit spolujízdu. Adresu místa najdeš o něco výše, kde máme svatební harmonogram, když klikneš na UKÁZAT NA MAPĚ."
     }
   },
   "gallery": {
@@ -68,22 +69,22 @@
     "from-count": "z"
   },
   "bridesmaids-groomsmen": {
-    "title": "Svedkyne a svedci",
+    "title": "Svědkyně a svědci",
     "paragraph": "-----------------------------------",
     "denisa": {
       "title": "Denisa Borkovcová",
       "paragraph": "-----------------------------------"
     },
     "janca": {
-      "title": "Janča Elčknerová",
+      "title": "Jana Elčknerová",
       "paragraph": "-----------------------------------"
     },
     "kuba": {
-      "title": "Kuba Lapeš",
+      "title": "Jakub Lapeš",
       "paragraph": "-----------------------------------"
     },
     "tom": {
-      "title": "Tom Tégl",
+      "title": "Tomáš Tégl",
       "paragraph": "-----------------------------------"
     }
   },
@@ -92,26 +93,9 @@
     "paragraph": "Vezměte toto oznámení jako malou radu, že svatba není o trápení, co dát ke svatebnímu daru. Pokud něčím přispějete, budeme za to rádi, mnohem důležitější však pro nás bude, že strávíte tento den s námi.",
     "paragraph-issues": "Případné potíže se svatebními dary vyřeší také Palacký nebo Masaryk."
   },
-  "rsvp": {
-    "title": "Účast",
-    "paragraph": "Zúčastníš se?",
-    "note": "Prosím vyplň za každou osobu, která je pozvána, zvlášť.<br/>V případě problémů s vyplněním nám zavolejte.",
-    "form": {
-      "name": "Tvé jméno",
-      "accommodation": {
-        "title": "Budeš chtít ubytování?",
-        "yes": "Ano",
-        "no": "Ne"
-      },
-      "address": "Tvoje adresa (kam ti pošleme pozvánku?)",
-      "email": "Tvůj e-mail (volitelné)",
-      "phone": "Tvůj telefon",
-      "button": "Odeslat"
-    }
-  },
   "footer": {
     "save-our-date": "Zapiš si naše datum",
-    "names": "David a Terka",
+    "names": "2.9.2022",
     "location": "Kravsko, Česká republika"
   }
 }
