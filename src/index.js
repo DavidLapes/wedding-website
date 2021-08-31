@@ -1,20 +1,16 @@
-import React, {Suspense} from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import {Provider} from "react-redux";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import configureStore from "./store";
 
-import './i18n';
-
 const store = configureStore();
 
 ReactDOM.render(
     <React.StrictMode>
         <Provider store={store}>
-            <Suspense fallback="loading">
-                <App/>
-            </Suspense>
+            <App/>
         </Provider>
     </React.StrictMode>,
     document.getElementById("root")
