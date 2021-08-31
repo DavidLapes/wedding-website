@@ -104,11 +104,13 @@ class App extends Component {
                         <img src="img/rsvp-flower.png" className="parallax" alt="flower"/>
                     </div>
                     <div className="col-sm-12 col-md-8 align-self-center">
-                        <h1 data-localize="rsvp.title" className="title">Attendance</h1>
-                        <h6 data-localize="rsvp.paragraph" className="text-uppercase font-weight-bold mb-1">Will you
-                            attend?</h6>
-                        <h6 data-localize="rsvp.note">Please fill every person, who is invited, separately. In case of
-                            troubles, please reach out to us by phone or email.</h6>
+                        <h1 className="title">Účast</h1>
+                        <h6 className="text-uppercase font-weight-bold mb-1">
+                            Zúčastníš se?
+                        </h6>
+                        <h6>
+                            Prosím vyplň za každou osobu, která je pozvána, zvlášť.<br/>V případě problémů s vyplněním nám zavolejte.
+                        </h6>
                         <div id="rsvp-form">
                             <div className="row">
                                 <div className="col-md-8 mb-3 m-md-0">
@@ -116,7 +118,7 @@ class App extends Component {
                                         <Select className="form-control"
                                                 options={this.state.guests}
                                                 id="guest_id"
-                                                placeholder="Your name"
+                                                placeholder="Tvé jméno"
                                                 onChange={this.handleNameChange}
                                             //TODO: Default value (localization)
                                             //TODO: Fix React i18n localization
@@ -125,7 +127,7 @@ class App extends Component {
                                     <div className="form-group">
                                         <Select className="form-control"
                                                 id="accommodation"
-                                                placeholder="Will you want an accommodation?"
+                                                placeholder="Budeš chtít ubytování?"
                                                 options={[
                                                     {
                                                         id: 1,
@@ -142,22 +144,22 @@ class App extends Component {
                                         />
                                     </div>
                                     <div className="form-group">
-                                        <label data-localize="rsvp.form.address" className="control-label" htmlFor="inputAddress"
+                                        <label className="control-label" htmlFor="inputAddress"
                                             //TODO: Google Address
                                         >
-                                            Your address (where should we send invitation)
+                                            Tvoje adresa (kam ti pošleme pozvánku?)
                                         </label>
                                         <input type="text" className="form-control" id="inputAddress" required onChange={this.handleChange}/>
                                     </div>
                                     <div className="form-group">
-                                        <label data-localize="rsvp.form.email" className="control-label" htmlFor="inputEmail">
-                                            Your email (optional)
+                                        <label className="control-label" htmlFor="inputEmail">
+                                            Tvůj e-mail (volitelné)
                                         </label>
                                         <input type="text" className="form-control" id="inputEmail" onChange={this.handleChange}/>
                                     </div>
                                     <div className="form-group">
                                         <label data-localize="rsvp.form.phone" className="control-label" htmlFor="inputPhoneNumber">
-                                            Your phone (mandatory)
+                                            Tvůj telefon
                                         </label>
                                         <input type="text" className="form-control" id="inputPhoneNumber" required onChange={this.handleChange}/>
                                     </div>
@@ -167,7 +169,7 @@ class App extends Component {
                                             className="btn btn-outline-dark rounded-0 px-3 py-1 font-weight-bold"
                                             onClick={this.handleSubmit}
                                     >
-                                        Send
+                                        Odeslat
                                     </button>
                                 </div>
                             </div>
