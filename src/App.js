@@ -7,12 +7,7 @@ import {submitRSVP} from "./services/actions/guests/submitRSVP";
 class App extends Component {
 
     state = {
-        state:              null,
-        city:               null,
-        street:             null,
-        orientation_number: null,
-        descriptive_number: null,
-        postal_code:        null,
+        address:            null,
         accommodation:      null,
         email:              null,
         phone:              null,
@@ -67,29 +62,17 @@ class App extends Component {
     }
 
     handleSubmit = () => {
-        console.log("Submit!");
-        console.log(this.state)
-        //TODO: Submit
-        //TODO: Validation of input fields
-        //TODO: Response messages
-        //TODO: Localization of default CZECH
-        //TODO: Load guests to Select and use IDs
-        /*this.props.dispatch(
+        this.props.dispatch(
             submitRSVP(
                 this.state.guest_id,
                 {
-                    state: this.state.state,
-                    city: this.state.city,
-                    street: this.state.street,
-                    orientation_number: this.state.orientation_number,
-                    descriptive_number: this.state.descriptive_number,
-                    postal_code: this.state.postal_code,
+                    address: this.state.address,
                     accommodation: this.state.accommodation,
                     email: this.state.email,
                     phone: this.state.email
                 }
             )
-        );*/
+        );
     };
 
     render() {
@@ -116,8 +99,6 @@ class App extends Component {
                                                 id="guest_id"
                                                 placeholder="Tvé jméno"
                                                 onChange={this.handleNameChange}
-                                            //TODO: Default value (localization)
-                                            //TODO: Fix React i18n localization
                                         />
                                     </div>
                                     <div className="form-group">
@@ -140,9 +121,7 @@ class App extends Component {
                                         />
                                     </div>
                                     <div className="form-group">
-                                        <label className="control-label" htmlFor="inputAddress"
-                                            //TODO: Google Address
-                                        >
+                                        <label className="control-label" htmlFor="inputAddress">
                                             Tvoje adresa (kam ti pošleme pozvánku?)
                                         </label>
                                         <input type="text" className="form-control" id="inputAddress" required onChange={this.handleChange}/>
@@ -171,7 +150,7 @@ class App extends Component {
                             </div>
                             <div className="row">
                                 <div className="col">
-                                    <div className="success-msg"></div>
+                                    <div className="success-msg"/>
                                 </div>
                             </div>
                         </div>
