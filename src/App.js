@@ -74,7 +74,7 @@ class App extends Component {
                     state: this.state.state,
                     accommodation: this.state.accommodation,
                     email: this.state.email,
-                    phone: this.state.email
+                    phone: this.state.phone
                 }
             )
         )
