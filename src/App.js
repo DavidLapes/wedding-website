@@ -7,12 +7,15 @@ import {submitRSVP} from "./services/actions/guests/submitRSVP";
 class App extends Component {
 
     state = {
-        address:            null,
-        accommodation:      null,
-        email:              null,
-        phone:              null,
-        guest_id:           null,
-        guests:             []
+        street:        null,
+        city:          null,
+        postal_code:   null,
+        state:         null,
+        accommodation: null,
+        email:         null,
+        phone:         null,
+        guest_id:      null,
+        guests:        []
     }
 
     componentDidMount() {
@@ -40,25 +43,24 @@ class App extends Component {
 
     handleAccommodation = (e) => {
         this.setState({
-            [e.target.id]: e.target.checked
+            accommodation: e.value
         })
     };
 
     handleNameChange = (e) => {
         this.setState({
             guest_id: e.id
-        });
+        })
     };
 
     formatOptions = (data) => {
         return data.map(x => {
-            console.log(x)
             return {
                 id: x.id,
                 value: x.id,
                 label: x.full_name
             }
-        });
+        })
     }
 
     handleSubmit = () => {
@@ -66,13 +68,16 @@ class App extends Component {
             submitRSVP(
                 this.state.guest_id,
                 {
-                    address: this.state.address,
+                    street: this.state.street,
+                    city: this.state.city,
+                    postal_code: this.state.postal_code,
+                    state: this.state.state,
                     accommodation: this.state.accommodation,
                     email: this.state.email,
                     phone: this.state.email
                 }
             )
-        );
+        )
     };
 
     render() {
@@ -117,26 +122,97 @@ class App extends Component {
                                                         label: "Ne"
                                                     }
                                                 ]}
-                                                onChange={this.handleNameChange}
+                                                onChange={this.handleAccommodation}
                                         />
                                     </div>
                                     <div className="form-group">
-                                        <label className="control-label" htmlFor="inputAddress">
-                                            Tvoje adresa (kam ti pošleme pozvánku?)
+                                        <label className="control-label">
+                                            <b>Adresa (kam ti zašleme pozvánku?)</b>
                                         </label>
-                                        <input type="text" className="form-control" id="inputAddress" required onChange={this.handleChange}/>
+                                        <input type="text"
+                                               className="form-control"
+                                               style={{
+                                                   borderStyle: "none",
+                                                   backgroundColor: "transparent"
+                                               }}
+                                               readOnly/>
+                                    </div>
+                                    <div className="form-group">
+                                        <label className="control-label" htmlFor="street">
+                                            Ulice
+                                        </label>
+                                        <input type="text"
+                                               className="form-control"
+                                               id="street"
+                                               required
+                                               onChange={this.handleChange}
+                                               value={this.state.street}/>
+                                    </div>
+                                    <div className="form-group">
+                                        <label className="control-label" htmlFor="city">
+                                            Město
+                                        </label>
+                                        <input type="text"
+                                               className="form-control"
+                                               id="city"
+                                               required
+                                               onChange={this.handleChange}
+                                               value={this.state.city}/>
+                                    </div>
+                                    <div className="form-group">
+                                        <label className="control-label" htmlFor="postal_code">
+                                            PSČ
+                                        </label>
+                                        <input type="text"
+                                               className="form-control"
+                                               id="postal_code"
+                                               required
+                                               onChange={this.handleChange}
+                                               value={this.state.postal_code}/>
+                                    </div>
+                                    <div className="form-group">
+                                        <label className="control-label" htmlFor="state">
+                                            Stát
+                                        </label>
+                                        <input type="text"
+                                               className="form-control"
+                                               id="state"
+                                               required
+                                               onChange={this.handleChange}
+                                               value={this.state.state}/>
+                                    </div>
+                                    <div className="form-group">
+                                        <label className="control-label">
+                                            <b>Jak tě můžeme zkontaktovat?</b>
+                                        </label>
+                                        <input type="text"
+                                               className="form-control"
+                                               style={{
+                                                   borderStyle: "none",
+                                                   backgroundColor: "transparent"
+                                               }}
+                                               readOnly/>
                                     </div>
                                     <div className="form-group">
                                         <label className="control-label" htmlFor="inputEmail">
                                             Tvůj e-mail (volitelné)
                                         </label>
-                                        <input type="text" className="form-control" id="inputEmail" onChange={this.handleChange}/>
+                                        <input type="text"
+                                               className="form-control"
+                                               id="email"
+                                               onChange={this.handleChange}
+                                               value={this.state.email}/>
                                     </div>
                                     <div className="form-group">
-                                        <label data-localize="rsvp.form.phone" className="control-label" htmlFor="inputPhoneNumber">
+                                        <label data-localize="rsvp.form.phone" className="control-label" htmlFor="phone">
                                             Tvůj telefon
                                         </label>
-                                        <input type="text" className="form-control" id="inputPhoneNumber" required onChange={this.handleChange}/>
+                                        <input type="text"
+                                               className="form-control"
+                                               id="phone"
+                                               required
+                                               onChange={this.handleChange}
+                                               value={this.state.phone}/>
                                     </div>
                                 </div>
                                 <div className="col-md-4 align-self-end">
