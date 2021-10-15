@@ -15,6 +15,7 @@ class App extends Component {
         email:         null,
         phone:         null,
         guest_id:      null,
+        note:          null,
         guests:        []
     }
 
@@ -74,7 +75,8 @@ class App extends Component {
                     state: this.state.state,
                     accommodation: this.state.accommodation,
                     email: this.state.email,
-                    phone: this.state.phone
+                    phone: this.state.phone,
+                    note: this.state.note
                 }
             )
         )
@@ -204,7 +206,7 @@ class App extends Component {
                                                value={this.state.email}/>
                                     </div>
                                     <div className="form-group">
-                                        <label data-localize="rsvp.form.phone" className="control-label" htmlFor="phone">
+                                        <label className="control-label" htmlFor="phone">
                                             Tvůj telefon
                                         </label>
                                         <input type="text"
@@ -214,10 +216,32 @@ class App extends Component {
                                                onChange={this.handleChange}
                                                value={this.state.phone}/>
                                     </div>
+                                    <div className="form-group">
+                                        <label className="control-label">
+                                            <b>Chtěl(a) bys něco dodat?</b>
+                                        </label>
+                                        <input type="text"
+                                               className="form-control"
+                                               style={{
+                                                   borderStyle: "none",
+                                                   backgroundColor: "transparent"
+                                               }}
+                                               readOnly/>
+                                    </div>
+                                    <div className="form-group">
+                                        <label className="control-label" htmlFor="note">
+                                            Poznámka
+                                        </label>
+                                        <input type="text"
+                                               className="form-control"
+                                               id="note"
+                                               required
+                                               onChange={this.handleChange}
+                                               value={this.state.note}/>
+                                    </div>
                                 </div>
                                 <div className="col-md-4 align-self-end">
-                                    <button data-localize="rsvp.form.button"
-                                            className="btn btn-outline-dark rounded-0 px-3 py-1 font-weight-bold"
+                                    <button className="btn btn-outline-dark rounded-0 px-3 py-1 font-weight-bold"
                                             onClick={this.handleSubmit}
                                     >
                                         Odeslat
