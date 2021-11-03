@@ -14,8 +14,8 @@ Table of Contents:
 \*------------------------------------*/
 @font-face {
 	font-family: 'laug';
-	src: url("../fonts/laug/laug.eot");
-	src: url("../fonts/laug/laug.eot?#iefix") format("embedded-opentype"), url("../fonts/laug/laug.woff2") format("woff2"), url("../fonts/laug/laug.woff") format("woff"), url("../fonts/laug/laug.ttf") format("truetype"), url("../fonts/laug/laug.svg") format("svg");
+	src: url("../fonts/laug/laugUnicode.eot");
+	src: url("../fonts/laug/laugUnicode.eot?#iefix") format("embedded-opentype"), url("../fonts/laug/laugUnicode.woff2") format("woff2"), url("../fonts/laug/laugUnicode.woff") format("woff"), url("../fonts/laug/laugUnicode.ttf") format("truetype"), url("../fonts/laug/laugUnicode.svg") format("svg");
 	font-weight: normal;
 	font-style: normal;
 }
